@@ -30,12 +30,12 @@ class SVM(ClassifierMixin, BaseEstimator):
                            a support vector [default: 1e-7]
         """
         self.kernel = kernel
-        self.C = C
-        self.gamma = gamma
-        self.p = p
+        self.C = float(C)
+        self.gamma = float(gamma)
+        self.p = int(p)
         self.scale_C = scale_C
         self.verbose = verbose
-        self.sv_cutoff = sv_cutoff
+        self.sv_cutoff = float(sv_cutoff)
 
         self._X = None
         self._y = None
