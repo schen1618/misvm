@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "misvm"
-version = "0.1.0"
+version = "0.1.1"
 description = "Implementations of various multiple-instance support vector machine approaches"
 authors = ["Gary Doran <gary.doran@case.edu>"]
 license = "BSD"
