@@ -5,8 +5,8 @@ from __future__ import print_function, division
 import sys
 import numpy as np
 import scipy.sparse as sp
-from cvxopt import matrix as cvxmat, sparse, spmatrix
-from cvxopt.solvers import lp
+from kvxopt import matrix as cvxmat, sparse, spmatrix
+from kvxopt.solvers import lp
 import inspect
 from misvm.quadprog import IterativeQP, spzeros as spz, speye as spI, _apply_options
 from misvm.util import spdiag, BagSplitter, slices, rand_convex

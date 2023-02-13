@@ -1,6 +1,6 @@
 from __future__ import print_function, division
-from cvxopt import matrix as cvxmat, sparse, spmatrix
-from cvxopt.solvers import qp, options
+from kvxopt import matrix as cvxmat, sparse, spmatrix
+from kvxopt.solvers import qp, options
 from sys import stderr
 from itertools import count
 

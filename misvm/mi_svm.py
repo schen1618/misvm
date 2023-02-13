@@ -4,7 +4,7 @@ Implements mi-SVM and MI-SVM
 from __future__ import print_function, division
 import numpy as np
 from random import uniform
-from cvxopt import matrix as cvxmat, sparse
+from kvxopt import matrix as cvxmat, sparse
 import inspect
 from misvm.sil import SIL
 from misvm.svm import SVM

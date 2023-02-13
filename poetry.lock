@@ -55,34 +55,58 @@ files = [
 ]
 
 [[package]]
-name = "cvxopt"
-version = "1.3.0"
-description = "Convex optimization package"
+name = "kvxopt"
+version = "1.3.0.3"
+description = "Convex optimization package and Suite Sparse interface"
 category = "main"
 optional = false
-python-versions = ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*, !=3.4.*"
+python-versions = "*"
 files = [
-    {file = "cvxopt-1.3.0-cp310-cp310-macosx_10_9_universal2.whl", hash = "sha256:df651cdc036e286f87d8592cd3ead6a20a0452cbf7548ea9b50eda77b9577f69"},
-    {file = "cvxopt-1.3.0-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:f4dcbd39a18d0aef9c856242fd5ed41049122f5439832c22778ad5300930145d"},
-    {file = "cvxopt-1.3.0-cp310-cp310-win32.whl", hash = "sha256:3f318c62bf4452f0512485e3d21e05f57fcf325c3e16a7bdf409850561885ede"},
-    {file = "cvxopt-1.3.0-cp310-cp310-win_amd64.whl", hash = "sha256:2b61f96561ee87b5d1e40281b6d908c80a454d529dcef947d4f229bba3f68e74"},
-    {file = "cvxopt-1.3.0-cp36-cp36m-macosx_10_9_x86_64.whl", hash = "sha256:d0aad902085e17c618d0e238c804a0e416edb701c5b0231003ce2ba1e0a3e751"},
-    {file = "cvxopt-1.3.0-cp36-cp36m-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:96cec99ec0236399def3fdadf3899c2f385f0277a0a296c56271cb84f472eaf0"},
-    {file = "cvxopt-1.3.0-cp36-cp36m-win32.whl", hash = "sha256:8a9877128839ed62275d84f477760c40c04e78e476cf46a44d1b1ab705463061"},
-    {file = "cvxopt-1.3.0-cp36-cp36m-win_amd64.whl", hash = "sha256:d9cefe4b12e9e4a290681ba54168044dde16e26a007bd1174e4e0d610ed76813"},
-    {file = "cvxopt-1.3.0-cp37-cp37m-macosx_10_9_x86_64.whl", hash = "sha256:911ea2c11d3777a233dc6f07729da3f8c7cb3af6369784e443eefcf4b83ad0ba"},
-    {file = "cvxopt-1.3.0-cp37-cp37m-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:2f44a6f0fffa4b3dda73f16b18fbd71cd109f62bd10c6157cf9eb776399f5400"},
-    {file = "cvxopt-1.3.0-cp37-cp37m-win32.whl", hash = "sha256:5684e630ea6443446be0acc981073ccdc1e6a8976f970f389acb642b6b4c4bd9"},
-    {file = "cvxopt-1.3.0-cp37-cp37m-win_amd64.whl", hash = "sha256:848e23c6dbd262fb2b429d60c6b44de46bf4009e9db539734f5876fab4bfde67"},
-    {file = "cvxopt-1.3.0-cp38-cp38-macosx_10_9_x86_64.whl", hash = "sha256:d062344666d36fdd1cb5dd278b3299de9f1e468106b541e1b92ca62bfab24c09"},
-    {file = "cvxopt-1.3.0-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:62f57a9270fe3be7ca1acf93c473df5ca875145e10efb9d4bd58af8d914f59be"},
-    {file = "cvxopt-1.3.0-cp38-cp38-win32.whl", hash = "sha256:c44b7bf39c936a870da625702f7519a05bb6f01d22693452f91c6d034c7654ef"},
-    {file = "cvxopt-1.3.0-cp38-cp38-win_amd64.whl", hash = "sha256:2e04759a39e11e630177813e74b8c93a4fa10eb6b208ae087406ebfcdae82c2f"},
-    {file = "cvxopt-1.3.0-cp39-cp39-macosx_10_9_x86_64.whl", hash = "sha256:13afa6472d02d518e6009352531ee685b55e42d545c9b1e3ef479ac2fbe8f52c"},
-    {file = "cvxopt-1.3.0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:aa7f4d7937266188575109a8546f8f9dd79f322cd6dff015a1d059033a64b8d2"},
-    {file = "cvxopt-1.3.0-cp39-cp39-win32.whl", hash = "sha256:80eebacc4db9282a844ab903f44ab3cec0249fac95ca0b79d2801e65c94d741e"},
-    {file = "cvxopt-1.3.0-cp39-cp39-win_amd64.whl", hash = "sha256:b923ea1ca55dd54fcd6a30b8c3a4efda3ea37c727ac92881963f257deb7ccff7"},
-    {file = "cvxopt-1.3.0.tar.gz", hash = "sha256:00b1b232f9d1f902d578a9d75814b67fa020758d5ae422e28ca8cef6269fa5c6"},
+    {file = "kvxopt-1.3.0.3-cp310-cp310-macosx_10_9_universal2.whl", hash = "sha256:5b24306fe07e4566b54fdb13449bf85b422febebfafdfb10c86f791b33b7bf02"},
+    {file = "kvxopt-1.3.0.3-cp310-cp310-macosx_10_9_x86_64.whl", hash = "sha256:92cd16f8533c9b99987c887bf506e3bbe2b503731cd1b956440cd839e5767229"},
+    {file = "kvxopt-1.3.0.3-cp310-cp310-macosx_11_0_arm64.whl", hash = "sha256:f53d3128e799d92ce50716f49dfadcc901dfdf84001ce679afeabd6e97a1812f"},
+    {file = "kvxopt-1.3.0.3-cp310-cp310-manylinux_2_12_x86_64.manylinux2010_x86_64.whl", hash = "sha256:a45030473656f370c44b4230a59c4a677d162b2b3e981f44371e0498b007d4b9"},
+    {file = "kvxopt-1.3.0.3-cp310-cp310-manylinux_2_17_aarch64.manylinux2014_aarch64.whl", hash = "sha256:5d072da3bd1c10826e9d7a22b081df434301e8ed01b555007426bea5e3061fdd"},
+    {file = "kvxopt-1.3.0.3-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:4a6a0a962388d8c7d16cf29a5bb22540b3bf3abf11de94b02cddbf5c820d02d8"},
+    {file = "kvxopt-1.3.0.3-cp310-cp310-win32.whl", hash = "sha256:0a2f4f5933f3f2cb0f97d6d1505f96061b9c07f5dcb096812a43421a8d005973"},
+    {file = "kvxopt-1.3.0.3-cp310-cp310-win_amd64.whl", hash = "sha256:dd20d8beb8330a1a743a5131a6f4603c66265207bbd8d9c19225beaa27fb3b71"},
+    {file = "kvxopt-1.3.0.3-cp311-cp311-macosx_10_9_x86_64.whl", hash = "sha256:77eaf29799e878a5ed283d46a016da2a38c7d5783c29de610b8b373148fb31e7"},
+    {file = "kvxopt-1.3.0.3-cp311-cp311-macosx_11_0_arm64.whl", hash = "sha256:d0f178e729e561366688ca73504af792d579db2db98de63d101a0ff83ff856bd"},
+    {file = "kvxopt-1.3.0.3-cp311-cp311-manylinux_2_17_aarch64.manylinux2014_aarch64.whl", hash = "sha256:f23d8287da9fb050daa323af76f8583562c19d536c78aa3f6672893f3ac3b0e7"},
+    {file = "kvxopt-1.3.0.3-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:7269561ca185d178c9b9de8168b0ae6cc37254954db3e13b1af6f48d74f418f4"},
+    {file = "kvxopt-1.3.0.3-cp311-cp311-win32.whl", hash = "sha256:48a76c8c4eec7b8504614efe896c62bb232be99df75dcbc0e26876ae8c7cf312"},
+    {file = "kvxopt-1.3.0.3-cp311-cp311-win_amd64.whl", hash = "sha256:b8808df8888507a1374ebb691e6fc2071cd3c96554ba012f4070336b09f346ab"},
+    {file = "kvxopt-1.3.0.3-cp36-cp36m-macosx_10_9_x86_64.whl", hash = "sha256:733f8616a02aad6b78bb240ff2ba3d5c6968d900852e8d9449d705b8c7c8d731"},
+    {file = "kvxopt-1.3.0.3-cp36-cp36m-macosx_11_0_arm64.whl", hash = "sha256:2ff2471dd9dde52d2c61633193538d1e79593b481e86383f00797dd2c4d321af"},
+    {file = "kvxopt-1.3.0.3-cp36-cp36m-manylinux_2_12_x86_64.manylinux2010_x86_64.whl", hash = "sha256:410c8b2d35b85258506d2bbd7d9dd38bdf0a2264792f4156e7fedce0c5d5d3a8"},
+    {file = "kvxopt-1.3.0.3-cp36-cp36m-manylinux_2_17_aarch64.manylinux2014_aarch64.whl", hash = "sha256:182e0f0b970bff4660b6c9b2910e478bd497492a9e262439adec4591dcb8e94f"},
+    {file = "kvxopt-1.3.0.3-cp36-cp36m-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:e237a59e55db01e5b78a34aa6bae5cb44c89c64510226e2bf2367a84deebf1d2"},
+    {file = "kvxopt-1.3.0.3-cp36-cp36m-win32.whl", hash = "sha256:990d947b6cd858e27ab3ad0fdb2d3ededfd967e45293b3fd88322a9fa6510e2c"},
+    {file = "kvxopt-1.3.0.3-cp36-cp36m-win_amd64.whl", hash = "sha256:034b502fd200387f31edcae5977dbf6210356084b3252424cec93c9e43d21ce7"},
+    {file = "kvxopt-1.3.0.3-cp37-cp37m-macosx_10_9_x86_64.whl", hash = "sha256:29cc1eb2cab8911fcff77ba577d6651822be28ef0beab386be436ca4342ddfd6"},
+    {file = "kvxopt-1.3.0.3-cp37-cp37m-macosx_11_0_arm64.whl", hash = "sha256:a07393a6b0a77b86966e28ff32d346f179bd18e53bb2b64a172f27191a693a01"},
+    {file = "kvxopt-1.3.0.3-cp37-cp37m-manylinux_2_12_x86_64.manylinux2010_x86_64.whl", hash = "sha256:d37e0323e85b1160a64e0b76a04926c3ac808213aca33bda08096a92d1480ce3"},
+    {file = "kvxopt-1.3.0.3-cp37-cp37m-manylinux_2_17_aarch64.manylinux2014_aarch64.whl", hash = "sha256:e88157399189eb4a10d91b44127d4562fe372b56c2ff6ec261cf936d9dc75a42"},
+    {file = "kvxopt-1.3.0.3-cp37-cp37m-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:dc0525eaab80dd3a51065492a081a32f76eb23694db2b16d19768800b7d42f8a"},
+    {file = "kvxopt-1.3.0.3-cp37-cp37m-win32.whl", hash = "sha256:6dde5ec502dfd796f29023ff6ff548cc4a062c5f087f36aac116df6b2ec5b7db"},
+    {file = "kvxopt-1.3.0.3-cp37-cp37m-win_amd64.whl", hash = "sha256:08df86233d7eb345d67259214f6debccd442d4da2c33ee51a0368886dc78b2fa"},
+    {file = "kvxopt-1.3.0.3-cp38-cp38-macosx_10_9_universal2.whl", hash = "sha256:f272e6c127eb8480a096ec45b0de254fb803c800a7180eee8e2b5db13c7a611a"},
+    {file = "kvxopt-1.3.0.3-cp38-cp38-macosx_10_9_x86_64.whl", hash = "sha256:8c491306a01d101ea44aa847c317e35cbf2d626a36afe40758c2c8d3e112e3cc"},
+    {file = "kvxopt-1.3.0.3-cp38-cp38-macosx_11_0_arm64.whl", hash = "sha256:65ba7651958693552f009011e5b1643a86d1b0a3f6a41538a80ee0edc8102147"},
+    {file = "kvxopt-1.3.0.3-cp38-cp38-manylinux_2_12_x86_64.manylinux2010_x86_64.whl", hash = "sha256:d9ec9b1ebeaae6eeeff7d88627619b4107ee758c10bea9beefc113be1ea3df5f"},
+    {file = "kvxopt-1.3.0.3-cp38-cp38-manylinux_2_17_aarch64.manylinux2014_aarch64.whl", hash = "sha256:484e0cfa8fc51b64f2a2a04d45b8af6a178503d6f2e6c4f440a984fc1859b3cd"},
+    {file = "kvxopt-1.3.0.3-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:29a38f8e6bbef8bc090edba201635d7606d03a8f72b37d65bf31b87c66e49055"},
+    {file = "kvxopt-1.3.0.3-cp38-cp38-win32.whl", hash = "sha256:8b2d54a775d671c1ee73a2a4dc640a139c168a45736b63c4c010039053f723fa"},
+    {file = "kvxopt-1.3.0.3-cp38-cp38-win_amd64.whl", hash = "sha256:53d5b51ad17d42c1016cbd1f4e265e01a6645abb7e1bbb1b07250e8bbe008cbb"},
+    {file = "kvxopt-1.3.0.3-cp39-cp39-macosx_10_9_universal2.whl", hash = "sha256:20b26f4094393b77f3170ae5e714b7a10af68c8be1d4b88742b64e1572a7d203"},
+    {file = "kvxopt-1.3.0.3-cp39-cp39-macosx_10_9_x86_64.whl", hash = "sha256:539fb4bba23c982c586bf9546097b499c5543b403716182df9f14e80ced287f7"},
+    {file = "kvxopt-1.3.0.3-cp39-cp39-macosx_11_0_arm64.whl", hash = "sha256:2eea4431a632d5bcfe7f365ddbc15a63571e481150c1a880fcd78d7a826d59f5"},
+    {file = "kvxopt-1.3.0.3-cp39-cp39-manylinux_2_12_x86_64.manylinux2010_x86_64.whl", hash = "sha256:11d67e851f65fbb6bb2cce43e3f52692af696c879ae859bf87f5047e0ef8992a"},
+    {file = "kvxopt-1.3.0.3-cp39-cp39-manylinux_2_17_aarch64.manylinux2014_aarch64.whl", hash = "sha256:e0a42ece8ec341b0c2a81647783375c518275b0cc69b09891dc3f5c705e5d002"},
+    {file = "kvxopt-1.3.0.3-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:8584e2213d8601c442cea863bc84c4e54c91061dc40f656c2e7390e0acbe6291"},
+    {file = "kvxopt-1.3.0.3-cp39-cp39-win32.whl", hash = "sha256:7aa8414c8a6dd254298af06ec882251c28ec74f972c6fe73b2bd22e97a36b2e5"},
+    {file = "kvxopt-1.3.0.3-cp39-cp39-win_amd64.whl", hash = "sha256:c7c60c058585e9df388402d9a7c8046ac8376e2130c57389f96190459c930c4a"},
+    {file = "kvxopt-1.3.0.3.tar.gz", hash = "sha256:60b0f4423e7371f0bd6fd13ee07d778fbb986fb63ac778b38f6a813202d2c684"},
 ]
 
 [[package]]
@@ -229,4 +253,4 @@ files = [
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.10"
-content-hash = "aa15bc43bcd28fd92af4667418cec30f72147f54a5236c95e4486fcef22523fa"
+content-hash = "631e0fb8037e1262d682dc0c887d819d38bc40dc619f7e1369a7ccda6eb60480"
